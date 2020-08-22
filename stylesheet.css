@@ -1,0 +1,342 @@
+*{margin:0;padding:0;}
+body{
+	font-family:Arial;
+	font-size:14px;
+	line-height:22px;
+	color:#3c3c3b;}
+h1,h2,h3,h4,h5,h6{
+	color:#ff6600;
+	font-weight:normal;}
+	
+.fix{overflow:hidden;}
+.floatright{float:right;}
+.floatleft{float:left;}
+.structure{margin:0 auto;width:960px;}
+
+.header_area{background:url(Images/header_bg.png) repeat-x;}
+.call_us{
+	background:url(Images/phone.png) no-repeat;
+	width:345px;
+	height:69px;
+	margin-top:20px;
+	margin-bottom:-100px;
+	color:#ff6600;}
+.call_us h1{
+	font-weight:normal;
+	margin-top:6px;
+	margin-left:45px;
+	margin-bottom:10px;}
+.call_us p{
+	font-size:25px;
+	margin-left:45px}
+.menu{
+	margin:0;
+	padding:0;
+	margin-top:129px;}
+.menu ul{list-style:none;}
+.menu ul li{
+	float:left;
+	margin-right:3px;}
+.menu ul li a{
+	text-decoration:none;
+	color:#ffffff;
+	background:#ed890f;
+	padding:8px 20px;
+	display:block;
+	border-radius:10px 10px 0px 0px;}
+.menu ul li a:hover{
+	background:#cc5500;
+	color:#333;}
+.main_body_area{background:url(Images/main_body_bg.png) repeat-x;}
+.main_body{
+	color:#3c3c3b;
+	background:#ffffff;
+	margin-top:10px;}
+	
+	
+/*Home Page*/
+.welcome_site{
+	border:1px solid #cccccc;
+	margin:15px;
+	background:#dddddd;}
+.welcome_site_content{padding:8px;}
+.welcome_site_content h2{
+	margin-bottom:15px;
+	font-weight:normal;
+	font-size:25px;}
+.welcome_site_image{margin-left:15px;}
+.welcome_site_image img{width:200px;}
+.single_promo{
+	width:275px;
+	margin:0px 5px 15px 15px;
+	border:1px solid #CCC;
+	padding:10px;}
+.single_promo h2{
+	margin-bottom:15px;
+	font-weight:normal;
+	font-size:25px;
+	margin-left:60px;
+	margin-top:30px;}
+.promo_one{background:url(Images/why_join.png) no-repeat;}
+.promo_two{background:url(Images/find_an-event.png) no-repeat;}
+.promo_three{background:url(Images/suggestions.png) no-repeat;}
+.promo_site_left{margin-right:20px;}
+.promo_site_left_heading{
+	background:#ed890f;
+	color:#ffffff;
+	border-radius:10px 10px 0px 0px;
+	width:619px;
+	margin-bottom:1px;
+	padding:5px;}
+.promo_site_left_heading h3{color:#fff;}
+.promo_site_slider{
+	height:229px;
+	margin-bottom:1px;}
+.promo_site_content{
+	background:#dddddd;
+	width:609px;
+	padding:10px;}
+.promo_site_content h2{
+	margin-bottom:15px;
+	font-weight:normal;
+	font-size:25px;
+	margin-top:10px;}
+.promo_site_right{width:311px;}
+.promo_site_right_heading{
+	background:#ed890f;
+	color:#ffffff;
+	border-radius:10px 10px 0px 0px;
+	width:301px;
+	margin-bottom:1px;
+	padding:5px;}
+.promo_site_right_heading h3{color:#fff;}
+.promo_site_form p{
+	margin-left:5px;
+	margin-top:1px;}
+.promo_site_form h3{
+	font-size:20px;
+	line-height:35px;
+	background:#333333;
+	padding:5px;}
+.sign_up{background:#cccccc;}
+.sign_up input[type=text],input[type=password]{
+	width:280px;}
+.sing_up input[type=reset],[type=submit]{
+	width:140px;
+	margin-left:10px;
+	cursor:pointer;
+	margin-top:5px;
+	margin-bottom:5px;
+	background:#fff;
+	border-radius:30px 0px 30px 0px;
+	background:#dc7f0f;
+	color:#fff;}
+.order_form{
+	background:#cccccc;
+	margin-top:3px;}
+.order_form input[type=text],input[type=password]{
+	width:280px;}
+.order_form input[type=submit],[type=reset]{
+	width:140px;
+	margin-left:10px;
+	cursor:pointer;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-radius:30px 0px 30px 0px;
+	background:#dc7f0f;
+	color:#fff;}
+/*Ending Home Page*/
+
+
+/*About Us Page*/
+.main_body{border:1px solid #cccccc;}
+.about_us{padding:25px}
+.about_us h2{
+	margin-bottom:15px;
+	font-size:25px;
+	margin-top:10px;}
+.about_us p{margin-bottom:30px;}
+/*Ending About Us Page*/
+
+
+/*Singles Ministries Page*/
+table{width:100%}
+td{
+	text-align:center;
+	padding:5px;}
+th{
+	color:#cd770f;
+	background:#ffebbb;
+	padding:5px;}
+.singles_ministries{
+	border:1px solid #ccc;
+	padding:20px;}
+.singles_ministries_top{margin-bottom:20px;}
+.title h1{
+	font-size:25px;
+	padding-bottom:5px;}
+.search p{font-weight:bold;}
+.search input[type=submit]{
+	border-radius:0px;
+	background:#dc7f0f;
+	color:#fff;
+	width:86px;
+	height:25px;
+	margin:0px;}
+.search input[type=text]{
+	width:165px;
+	height:21px;
+	margin-right:5px;}
+.singles_ministries_bottom{border:1px solid #ccc;}
+.singles_ministries_bottom img{padding:5px;}
+.text_color{color:#f28c11}
+/*Ending Singles Ministries Page*/
+
+
+/*Blog Page*/
+.blog{
+	border:1px solid #ccc;
+	padding:20px;}
+.blog h1{margin-bottom:20px;}
+.blog_post{
+	border:1px solid #c9c7c7;
+	margin-bottom:20px;
+	background:#eaeaea;}
+.blog_post img{
+	padding:10px;
+	margin-right:10px;
+	height:118px;}
+.blog_post h2{
+	margin-bottom:12px;
+	margin-top:10px;}
+.blog_post p{
+	text-align:justify;
+	margin-right:10px;}
+.blog_post input[type=submit]{
+	border-radius:0px;
+	background:#dc7f0f;
+	color:#fff;
+	width:108px;
+	height:25px;
+	margin:10px 10px 0px 0px;}
+/*Enging Blog Page*/
+
+
+/*Newsletter Page*/
+.newsletter h2{
+	color:#ec880f;
+	margin-bottom:15px;}
+.newsletter h1{margin:30px 0px 20px 20px;}
+.newsletter_left{
+	width:630px;
+	margin-right:15px;}
+.post{
+	border:1px solid #ccc;
+	margin-left:20px;
+	padding:15px;
+	text-align:justify;
+	margin-bottom:20px;
+	background:#eaeaea;}
+.newsletter_right{
+	margin-right:20px;
+	width:295px;}
+.list_item{
+	border:1px solid #ccc;
+	padding:15px;}
+.list_item ul{list-style:none;}
+.list_item ul li{
+	border-bottom:1px dotted #333;
+	background:url(Images/list_type.png) no-repeat scroll 0 10px;
+	padding:4px 4px 4px 19px;}
+.delivery{
+	border:1px solid #ccc;
+	margin-top:20px;}
+.delivery h1{
+	margin:0;
+	padding:0;
+	text-align:center;
+	padding:5px;
+	letter-spacing:-1px;
+	margin-bottom:5px}
+.delivery h2{
+	background:url(Images/delivery_shape.jpg) no-repeat;
+	color:#fff;
+	font-weight:normal;
+	text-align:center;
+	padding: 10px 10px 20px 10px;}
+.delivery input[type=text]{
+	width:275px;
+	height:17px;
+	margin:0px 7px 14px 7px;}
+.delivery input[type=submit]{
+	border-radius:10px;
+	float:right;
+	height:33px;
+	margin-top:0px;
+	margin-right:10px;}
+/*Ending Newsletter Page*/
+
+
+/*Contact Us Page*/
+.contact_us{padding:20px;}
+.contact_us h1{margin-bottom:20px;}
+.contact_us p{margin-bottom:20px;}
+.submit_from input[type=text]{
+	width:323px;
+	margin-bottom:20px;
+	margin-left:150px;
+	height:20px;
+	background:#ccc;}
+.submit_from select{
+	width:323px;
+	margin-bottom:20px;
+	margin-left:150px;
+	height:25px;
+	background:#ccc;}
+.submit_from textarea{
+	width:323px;
+	margin-bottom:20px;
+	margin-left:150px;
+	height:100px;
+	background:#ccc;}
+.submit_from input[type=submit]{
+	width:160px;
+	margin-bottom:20px;
+	margin-left:150px;
+	height:50px;
+	float:right;
+	border-radius:50px 0px 50px 0px;
+	font-size:30px;
+	color:#fff;}
+/*Ending Contact Us Page*/
+
+
+.footer_area{
+	background:url(Images/footer_bg.jpg) repeat-x;
+	margin-top:20px;
+	color:#fff;}
+.copyright{
+	margin:30px;
+	margin-left:0px;}
+.footer_menu{
+	margin-top:30px;
+	width:490px;}
+.footer_menu ul{list-style:none;}
+.footer_menu ul li{float:left;}
+.footer_menu ul li a{
+	text-decoration:none;
+	color:#fff;
+	border-right:2px solid #fff;
+	padding:0px 15px 0px 15px}
+.footer_menu ul li a:hover{color:#333;}
+.social_bookmarks{
+	border:1px solid #cccccc;
+	margin:-30px;
+	margin-right:0px;
+	background:#ff6600;
+	border-radius:10px}
+.social_bookmarks img{
+	width:25px;
+	margin-right:10px;
+	margin-top:5px;}
+.social_bookmarks img:last-child{margin-right:0px;}
